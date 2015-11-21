@@ -1,0 +1,84 @@
+.pf-orange {
+    color: #FF8C00 !important;
+}
+
+#pf-logo {
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    z-index: 1;
+    border: 1px solid #FF8C00;
+    border-radius: 50%;
+}
+
+#pf-logo img {
+    width: 80px;
+}
+
+a {
+    color: #FF8C00;
+}
+
+.btn-default {
+    border-color: #FF8C00;
+    color: #FF8C00;
+}
+
+.btn-default:hover, .btn-default:focus {
+    border-color: #FF8C00;
+    background-color: #FF8C00;
+}
+
+.navbar-custom .nav li a:hover {
+    color: #FF8C00;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: #FF8C00;
+}
+
+.navbar-custom {
+    border-bottom-color: #FF8C00;
+}
+
+@media (min-width: 768px) {
+    #pf-logo {
+        right: 20px;
+        border-width: 2px;
+    }
+
+    #pf-logo img {
+        width: 180px;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom-color: #FF8C00;
+    }
+}
+
+.intro {
+    background: url(../img/pizza-bg.jpg) no-repeat bottom center scroll;
+}
+
+table {
+    background-color: #000;
+    color: #FFF;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #FFF;
+    color: #000;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td,
+.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 12px;
+}
+
+.table>tbody>tr>th {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
