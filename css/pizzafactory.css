@@ -15,7 +15,7 @@
     width: 80px;
 }
 
-h4.item-title {
+h4.item-title, h4.item-price {
     margin: 0 0 8px;
 }
 
